@@ -1,71 +1,257 @@
 <!doctype html>
-<html lang="en">
+<html lang="en-KE">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#101c2c"><meta name="description" content="Smart Edge Viva Hub supplies ICT products and practical technology solutions for businesses, institutions and individuals in Kenya."><title>Smart Edge Viva Hub | Technology that moves you forward</title>
-<style>
-:root{--navy:#171714;--blue:#c8972c;--cyan:#f1cc70;--ink:#142034;--muted:#64748b;--line:#e2e8f0;--paper:#fbf8f0;--white:#fff;--radius:18px}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.6}a{color:inherit;text-decoration:none}.wrap{width:min(1160px,calc(100% - 44px));margin:auto}.topline{background:#0b1421;color:#c6d4e6;font-size:12px;letter-spacing:.04em}.topline .wrap{display:flex;justify-content:space-between;gap:16px;padding:9px 0}.topline a:hover{color:#fff}.nav{position:sticky;top:0;z-index:10;background:#fff;border-bottom:1px solid #eef1f5}.navin{height:76px;display:flex;align-items:center;justify-content:space-between;gap:26px}.brand{display:flex;align-items:center;gap:11px;font-weight:850;letter-spacing:-.04em;font-size:17px}.brand small{display:block;font-weight:600;color:#7b8ba0;font-size:9px;letter-spacing:.15em;text-transform:uppercase;margin-top:1px}.mark{width:38px;height:38px;border-radius:12px;background:var(--navy);display:grid;place-items:center;color:white;font-weight:900;font-size:18px;position:relative}.mark:after{content:"";width:8px;height:8px;border-radius:50%;background:#f1cc70;position:absolute;right:5px;top:5px}.links{display:flex;align-items:center;gap:28px;font-size:13px;font-weight:650;color:#475569}.links a:hover{color:#a87b20}.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;background:var(--blue);color:#fff;border-radius:9px;padding:13px 18px;font-size:13px;font-weight:750;box-shadow:0 8px 20px #1f69e826;transition:.2s}.btn:hover{transform:translateY(-2px);background:#a87b20}.btn.ghost{background:white;color:var(--navy);box-shadow:none;border:1px solid #d9e1ec}.btn.dark{background:var(--navy);box-shadow:none}.hero{background:var(--navy);color:#fff;overflow:hidden;position:relative}.hero:before{content:"";position:absolute;width:630px;height:630px;border-radius:50%;border:1px solid #ffffff15;right:-200px;top:-235px;box-shadow:0 0 0 70px #ffffff08,0 0 0 140px #ffffff05}.hero:after{content:"";position:absolute;width:420px;height:420px;border-radius:50%;background:radial-gradient(circle,#a8792f55,transparent 70%);right:4%;bottom:-290px}.hero-in{position:relative;z-index:1;display:grid;grid-template-columns:1.06fr .94fr;gap:50px;align-items:center;min-height:580px;padding:72px 0 78px}.eyebrow{display:flex;align-items:center;gap:9px;color:#f1cc70;text-transform:uppercase;letter-spacing:.16em;font-weight:800;font-size:10px}.eyebrow:before{content:"";width:24px;height:2px;background:var(--cyan)}h1{font-size:clamp(44px,5.8vw,68px);line-height:1.06;letter-spacing:-.06em;margin:19px 0 20px;max-width:650px}.hero p{font-size:16px;color:#bdc8d8;max-width:520px;line-height:1.75;margin:0 0 28px}.hero-actions{display:flex;gap:12px;flex-wrap:wrap}.hero .ghost{background:#ffffff0a;border-color:#ffffff38;color:#fff}.proof{display:flex;gap:22px;margin-top:39px;color:#b6c3d3;font-size:11px}.proof span{display:flex;align-items:center;gap:7px}.check{color:#f1cc70;font-weight:900}.visual{position:relative;min-height:394px;display:grid;place-items:center}.orbit{position:absolute;width:min(390px,92%);aspect-ratio:1;border-radius:50%;border:1px solid #ffffff20;background:radial-gradient(circle at 50% 50%,#3b3524 0,#29271e 46%,#1e201d 70%,transparent 71%)}.orbit:before,.orbit:after{content:"";position:absolute;border:1px solid #ffffff16;border-radius:50%;inset:30px}.orbit:after{inset:68px}.device{position:relative;z-index:1;width:245px;padding:15px 15px 13px;border-radius:16px;background:linear-gradient(145deg,#f7fafc,#c6d0dc);box-shadow:0 35px 70px #050a13a8;transform:rotate(-7deg)}.screen{height:151px;border:7px solid #1a2938;border-bottom-width:12px;border-radius:8px;background:linear-gradient(135deg,#111f33,#153d61);overflow:hidden;position:relative}.screen:before{content:"";position:absolute;width:150px;height:150px;border:1px solid #e4bd5c80;border-radius:50%;left:32px;top:21px;box-shadow:0 0 0 22px #e4bd5c12,0 0 0 45px #e4bd5c0c}.screen:after{content:"SMART EDGE";position:absolute;left:16px;top:16px;color:#e6fbff;font-size:9px;letter-spacing:.17em;font-weight:800}.base{height:13px;background:linear-gradient(#b9c5d1,#8c9baa);border-radius:2px 2px 10px 10px;margin:0 -13px}.chip{position:absolute;z-index:2;background:#fff;color:var(--ink);border:1px solid #e6edf4;box-shadow:0 14px 30px #06101d55;border-radius:12px;padding:12px 15px;font-size:11px;font-weight:750;display:flex;align-items:center;gap:10px}.chip i{width:32px;height:32px;border-radius:9px;background:#f8efd9;color:#9b711b;font-style:normal;display:grid;place-items:center;font-size:15px}.chip.one{top:39px;left:4px}.chip.two{right:-3px;top:115px}.chip.three{bottom:32px;left:25px}.float-label{position:absolute;bottom:15px;right:1px;color:#d3e3f6;font-size:10px;letter-spacing:.11em;text-transform:uppercase}.section{padding:100px 0}.section.soft{background:var(--paper)}.section-head{max-width:660px;margin-bottom:37px}.kicker{color:var(--blue);font-size:10px;font-weight:850;letter-spacing:.16em;text-transform:uppercase}.section h2{font-size:clamp(30px,4vw,43px);line-height:1.13;letter-spacing:-.05em;margin:11px 0 13px;color:var(--navy)}.section-head p{color:var(--muted);font-size:14px;margin:0;max-width:590px}.about-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:68px;align-items:start}.about-note{background:#f8efd9;border-radius:var(--radius);padding:27px;border:1px solid #ebd8a8}.about-note strong{font-size:15px;color:var(--navy)}.about-note p{font-size:13px;color:#53647c;margin:9px 0 0}.values{display:grid;grid-template-columns:repeat(2,1fr);gap:13px}.value{background:#fff;border:1px solid var(--line);border-radius:14px;padding:19px}.value b{display:block;font-size:13px;margin-bottom:5px}.value span{font-size:12px;color:var(--muted)}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.card{background:#fff;border:1px solid var(--line);border-radius:15px;padding:22px;min-height:178px;transition:.2s}.card:hover{transform:translateY(-3px);box-shadow:0 14px 32px #0f23420c;border-color:#e8d4a4}.icon{width:41px;height:41px;background:#f8efd9;color:#9b711b;border-radius:12px;display:grid;place-items:center;font-size:18px;margin-bottom:17px}.card h3{font-size:14px;margin:0 0 7px;color:var(--navy)}.card p{font-size:12px;color:var(--muted);margin:0;line-height:1.65}.serviceband{margin-top:25px;background:var(--navy);color:white;border-radius:17px;padding:25px 28px;display:flex;align-items:center;justify-content:space-between;gap:24px}.serviceband strong{font-size:15px}.serviceband p{font-size:12px;color:#b9c8d9;margin:4px 0 0}.steps{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;counter-reset:step}.step{border-top:1px solid #d7e0eb;padding:19px 12px 0 0;position:relative}.step:before{counter-increment:step;content:"0" counter(step);font-size:11px;font-weight:850;color:var(--blue);display:block;margin-bottom:14px}.step h3{font-size:13px;margin:0 0 7px}.step p{font-size:11px;color:var(--muted);margin:0}.why{display:grid;grid-template-columns:1fr 1fr;gap:16px}.why-item{display:flex;gap:13px;background:white;border:1px solid var(--line);border-radius:14px;padding:19px}.why-item .checkmark{color:var(--blue);font-size:18px;font-weight:900}.why-item b{font-size:13px}.why-item p{font-size:11px;color:var(--muted);margin:4px 0 0}.contact{background:linear-gradient(120deg,#122238,#0d1828);color:#fff;padding:77px 0}.contact-in{display:grid;grid-template-columns:1fr .9fr;gap:54px;align-items:center}.contact h2{font-size:clamp(32px,4vw,45px);letter-spacing:-.05em;line-height:1.12;margin:12px 0}.contact p{color:#b9c6d6;font-size:14px;max-width:500px}.contactbox{background:#ffffff0a;border:1px solid #ffffff1c;border-radius:16px;padding:22px}.contactrow{display:flex;gap:13px;align-items:flex-start;padding:12px 0;border-bottom:1px solid #ffffff17}.contactrow:last-child{border:0}.contactrow i{font-style:normal;width:30px;height:30px;border-radius:9px;background:#ffffff12;display:grid;place-items:center;color:#91e7e2}.contactrow small{display:block;color:#a6b5c8;font-size:10px;text-transform:uppercase;letter-spacing:.1em}.contactrow b,.contactrow a{font-size:13px;display:block;margin-top:2px}.contact-actions{display:flex;gap:11px;flex-wrap:wrap;margin-top:22px}.footer{background:#0a1320;color:#98a9bd;padding:23px 0;font-size:11px}.footerin{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}.footer b{color:#e4edf6}.mobile-cta{display:none}
-@media(max-width:820px){.links{gap:16px}.hero-in{grid-template-columns:1fr .82fr;gap:20px;min-height:535px}.visual{transform:scale(.9)}.about-grid{gap:25px}.cards{grid-template-columns:repeat(2,1fr)}.steps{grid-template-columns:repeat(3,1fr);row-gap:23px}}
-@media(max-width:640px){.wrap{width:min(100% - 34px,500px)}.topline .wrap{justify-content:center}.topline span:first-child{display:none}.navin{height:65px}.links{display:none}.nav .btn{padding:10px 13px;font-size:11px}.brand{font-size:14px}.mark{width:34px;height:34px}.hero-in{display:flex;flex-direction:column;align-items:flex-start;padding:58px 0 33px;gap:5px}.hero h1{font-size:46px}.hero p{font-size:14px}.proof{margin-top:25px;gap:13px;flex-wrap:wrap}.visual{align-self:center;width:100%;min-height:320px;transform:none}.orbit{width:300px}.device{width:211px}.screen{height:127px}.chip.one{left:0;top:34px}.chip.two{right:0;top:92px}.chip.three{left:3px;bottom:11px}.float-label{right:0;bottom:6px}.section{padding:72px 0}.about-grid{grid-template-columns:1fr;gap:20px}.values{gap:9px}.value{padding:15px}.cards{grid-template-columns:1fr 1fr;gap:10px}.card{padding:16px;min-height:180px}.serviceband{align-items:flex-start;flex-direction:column;padding:22px}.steps{grid-template-columns:1fr 1fr}.why{grid-template-columns:1fr}.contact-in{grid-template-columns:1fr;gap:25px}.contact{padding:60px 0}.footerin{justify-content:center;text-align:center}.mobile-cta{position:fixed;z-index:9;display:flex;bottom:10px;left:12px;right:12px;gap:8px;padding:7px;background:#fff;border-radius:13px;box-shadow:0 8px 30px #09172b30}.mobile-cta a{flex:1;padding:12px 8px;font-size:12px}.footer{padding-bottom:95px}}
-<style>
-.brand-logo{width:165px;height:59px;object-fit:cover;object-position:center 61%;border-radius:4px;mix-blend-mode:multiply}
-.logo-showcase{position:relative;z-index:1;width:min(340px,90%);aspect-ratio:1;border-radius:22px;overflow:hidden;box-shadow:0 24px 70px #0008;border:1px solid #d8b34c55}
-.logo-showcase img{width:100%;height:100%;object-fit:cover;display:block}
-.manage-btn{cursor:pointer;font:inherit;border:0}
-.live-products{margin-top:40px;padding-top:27px;border-top:1px solid #e8dfcc}
-.live-head{display:flex;justify-content:space-between;align-items:end;gap:16px;margin-bottom:16px}
-.live-head h3{font-size:22px;letter-spacing:-.04em;margin:4px 0 0;color:var(--navy)}
-.live-head>span{font-size:11px;color:var(--muted)}
-.product-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:13px}
-.store-product{background:white;border:1px solid var(--line);border-radius:14px;overflow:hidden}
-.store-product img{width:100%;height:180px;object-fit:cover;background:#f4f0e6}
-.store-product .product-copy{padding:16px}.store-product small{font-size:10px;color:#9b711b;font-weight:800;text-transform:uppercase;letter-spacing:.08em}
-.store-product h4{font-size:15px;margin:6px 0}.store-product p{font-size:12px;color:var(--muted);margin:0 0 9px}.store-product .price{font-weight:800;font-size:14px;color:var(--navy)}
-.empty-products{background:#fff;border:1px dashed #ddcfaa;color:var(--muted);padding:20px;border-radius:13px;font-size:13px}.empty-products a{color:#9b711b;font-weight:750;text-decoration:underline}
-.editor-backdrop{display:none;position:fixed;z-index:30;inset:0;background:#0b1220a8;backdrop-filter:blur(5px);padding:22px;overflow:auto}
-.editor-backdrop.open{display:flex;justify-content:flex-end}.editor{background:#fff;width:min(560px,100%);min-height:100%;height:max-content;border-radius:18px;padding:25px;box-shadow:0 24px 80px #0004}
-.editor-top{display:flex;justify-content:space-between;align-items:center}.editor-top h2{margin:3px 0 0;font-size:25px;color:var(--navy);letter-spacing:-.04em}
-.close-editor{font-size:28px;border:0;background:none;cursor:pointer;color:#64748b}
-.editor-notice{margin:18px 0;background:#faf4e3;border:1px solid #eddbac;padding:13px 15px;border-radius:11px;font-size:11px;color:#665631}.editor-notice b{display:block;color:#332b18;margin-bottom:3px}
-.editor-tabs{display:flex;gap:8px;border-bottom:1px solid var(--line);margin-bottom:18px}.editor-tabs button{border:0;background:none;padding:11px 14px;color:#64748b;font-weight:700;cursor:pointer;border-bottom:2px solid transparent}.editor-tabs button.active{color:#9b711b;border-color:#c8972c}
-.product-form{display:grid;gap:12px}.product-form label{display:grid;gap:5px;font-size:11px;font-weight:750;color:#334155}
-.product-form input,.product-form select,.product-form textarea{font:inherit;font-weight:450;font-size:13px;padding:10px 11px;border:1px solid #dce2e9;border-radius:8px;background:white;color:#172033;width:100%}
-.product-form input[type=file]{font-size:11px}.form-row{display:grid;grid-template-columns:1fr 1fr;gap:12px}.field-hint{color:#8491a1;font-weight:450}
-.editor-actions,.backup-actions{display:flex;gap:8px;flex-wrap:wrap}.editor-actions .btn,.backup-actions .btn,.product-form>.btn{cursor:pointer;font:inherit;border:0}
-.manage-list-head{display:flex;justify-content:space-between;align-items:center;margin-top:25px;padding:12px 0;border-top:1px solid var(--line);font-size:13px}.manage-list-head span{font-size:11px;color:var(--muted)}
-.manage-products{display:grid;gap:8px}.manage-product{display:flex;gap:11px;align-items:center;padding:9px;border:1px solid var(--line);border-radius:10px}
-.manage-product img{width:52px;height:48px;object-fit:cover;border-radius:7px;background:#f6f2e8}.manage-product .mp-info{flex:1;min-width:0}.manage-product b{display:block;font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.manage-product small{font-size:10px;color:var(--muted)}
-.manage-product button{font-size:11px;border:1px solid #e2e8f0;border-radius:7px;background:#fff;padding:7px;cursor:pointer;color:#334155}.manage-product button.delete{color:#a33}
-.backup-actions{margin-top:15px;padding-top:13px;border-top:1px solid var(--line)}.backup-actions .btn{font-size:11px;padding:10px 12px}
-.import-button{position:relative;overflow:hidden;cursor:pointer}.import-button input{position:absolute;inset:0;opacity:0;cursor:pointer}.editor-foot{color:#8290a1;font-size:10px;margin-top:18px}
-@media(max-width:640px){.brand-logo{width:120px;height:48px}.manage-btn{padding:10px 11px!important;font-size:11px!important}.product-grid{grid-template-columns:1fr 1fr}.store-product img{height:130px}.live-head{align-items:flex-start;flex-direction:column;gap:5px}.editor-backdrop{padding:8px}.editor{padding:18px}.product-grid{gap:9px}}
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#141310">
+  <meta name="description" content="Shop laptops, desktops and ICT accessories from Smart Edge Viva Hub in Nairobi. Browse listed prices and enquire about availability on WhatsApp.">
+  <title>Smart Edge Viva Hub | ICT Supply in Nairobi</title>
+  <link rel="icon" type="image/jpeg" href="logo.jpeg">
+  <link rel="stylesheet" href="styles.css">
+  <script src="catalogue.js" defer></script>
+  <script src="site.js" defer></script>
+</head>
+<body id="top">
+  <svg xmlns="http://www.w3.org/2000/svg" class="icon-library" aria-hidden="true">
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 6-8 11-8 11S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M7 3H4.8A1.8 1.8 0 0 0 3 5c1 8.5 7.5 15 16 16a1.8 1.8 0 0 0 2-1.8V17l-5-2-1.5 2a14 14 0 0 1-7.5-7.5L9 8 7 3Z"/></symbol>
+    <symbol id="i-whatsapp" viewBox="0 0 24 24"><path d="M12 3a9 9 0 0 0-7.8 13.5L3 21l4.6-1.2A9 9 0 1 0 12 3Z"/><path d="M8 8.8c0 3.4 3.9 7.2 7 7.2.7 0 1.3-.6 1.6-1.3l-2.6-1.4-1 1c-1.7-.7-2.6-1.6-3.4-3.3l.9-1-1.2-2.6c-.7.2-1.3.7-1.3 1.4Z"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h15m-6-6 6 6-6 6"/></symbol>
+    <symbol id="i-diagonal" viewBox="0 0 24 24"><path d="M6 18 18 6M8 6h10v10"/></symbol>
+    <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+    <symbol id="i-laptop" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="13" rx="1.5"/><path d="m4 17-2 3h20l-2-3M10 17h4"/></symbol>
+    <symbol id="i-monitor" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="13" rx="2"/><path d="M12 17v4m-4 0h8"/></symbol>
+    <symbol id="i-accessory" viewBox="0 0 24 24"><path d="M12 2v15a4 4 0 0 1-8 0v-1m5-11 3-3 3 3m-3 7h5l3-3m-8 6H8l-3-4"/><rect x="17.5" y="5.5" width="4" height="4" rx=".5"/><circle cx="4" cy="9.5" r="2"/></symbol>
+    <symbol id="i-box" viewBox="0 0 24 24"><path d="m3 7 9-4 9 4v10l-9 4-9-4V7Zm0 0 9 4 9-4m-9 4v10M8 5l9 4"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></symbol>
+    <symbol id="i-edit" viewBox="0 0 24 24"><path d="m14.5 5.5 4 4M4 20l4.5-1 11-11a2.8 2.8 0 0 0-4-4l-11 11L4 20Z"/></symbol>
+    <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v5m0-8h.01"/></symbol>
+    <symbol id="i-printer" viewBox="0 0 24 24"><path d="M7 8V3h10v5M7 18H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-3"/><path d="M7 14h10v7H7zM6.5 11h.01"/></symbol>
+    <symbol id="i-network" viewBox="0 0 24 24"><rect x="3" y="13" width="18" height="7" rx="2"/><path d="M7 13V5m10 8V5M7 17h.01m4 0h.01m4 0h3"/></symbol>
+    <symbol id="i-power" viewBox="0 0 24 24"><path d="m13 2-8 12h6l-1 8 9-12h-6l1-8Z"/></symbol>
+    <symbol id="i-keyboard" viewBox="0 0 24 24"><rect x="2.5" y="5" width="19" height="14" rx="2"/><path d="M6.5 9h.01m3.5 0h.01m4 0h.01m3.5 0h.01M6.5 12h.01m3.5 0h.01m4 0h.01m3.5 0h.01M8 15h8"/></symbol>
+    <symbol id="i-projector" viewBox="0 0 24 24"><rect x="2" y="6" width="20" height="12" rx="2"/><circle cx="16" cy="12" r="3"/><path d="M6 10h3m-3 4h3M5 18v2m14-2v2"/></symbol>
+    <symbol id="i-briefcase" viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V5a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v2m-13 6a21 21 0 0 0 18 0m-9 0v2"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M6 18 18 6"/></symbol>
+    <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3v12m-5-5 5 5 5-5M4 16v4h16v-4"/></symbol>
+  </svg>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header>
+    <div class="utility">
+      <div class="wrap utility-inner">
+        <span><svg class="icon"><use href="#i-pin"/></svg> Mithoo Business Center, Shop G29, Nairobi</span>
+        <div class="utility-phones"><svg class="icon"><use href="#i-phone"/></svg> <a href="tel:+254705104557">0705 104 557</a><span aria-hidden="true">/</span><a href="tel:+254799708070">0799 708 070</a></div>
+      </div>
+    </div>
+    <div class="navigation">
+      <div class="wrap navigation-inner">
+        <a class="brand" href="#top" aria-label="Smart Edge Viva Hub home">
+          <span class="brand-mark"><svg viewBox="340 198 350 377" aria-hidden="true"><image href="logo.jpeg" width="1024" height="1024"/></svg></span>
+          <span>Smart Edge <small>Viva Hub</small></span>
+        </a>
+        <nav class="nav-links" aria-label="Main navigation">
+          <a href="#catalogue">Catalogue</a>
+          <a href="#equipment">What we supply</a>
+          <a href="#process">How it works</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <a class="button button-outline nav-action" href="https://wa.me/254705104557"><svg class="icon"><use href="#i-whatsapp"/></svg> WhatsApp</a>
+      </div>
+    </div>
+  </header>
 
-</style></head>
-<body><div class="topline"><div class="wrap"><span>ICT PRODUCTS · TECHNOLOGY SOLUTIONS · BUSINESS SUPPORT</span><span>Talk to our team: <a href="tel:+254705104557">0705 104 557</a></span></div></div>
-<header class="nav"><div class="wrap navin"><a class="brand" href="#home" aria-label="Smart Edge Viva Hub home"><img class="brand-logo" src="logo.jpeg" alt="Smart Edge Viva Hub logo"></a><nav class="links"><a href="#about">About</a><a href="#products">Products</a><a href="#approach">How we work</a><a href="#contact">Contact</a></nav><div style="display:flex;gap:9px;align-items:center"><button class="btn manage-btn" type="button" onclick="openEditor()">Edit website</button><a class="btn" href="#contact">Request a quote <span>↗</span></a></div></div></header>
-<main><section class="hero" id="home"><div class="wrap hero-in"><div><div class="eyebrow">Your ICT supply partner</div><h1>Technology that moves you <span style="color:var(--cyan)">forward.</span></h1><p>Practical ICT products and dependable supply for businesses, institutions and individuals. Tell us what you need; we’ll help you find the right fit.</p><div class="hero-actions"><a class="btn" href="https://wa.me/254705104557?text=Hello%20Smart%20Edge%20Viva%20Hub%2C%20I%27d%20like%20to%20request%20an%20ICT%20quotation." target="_blank" rel="noopener">Discuss your requirements <span>↗</span></a><a class="btn ghost" href="#products">Explore products <span>↓</span></a></div><div class="proof"><span><b class="check">✓</b> Clear specifications</span><span><b class="check">✓</b> Responsive service</span><span><b class="check">✓</b> Flexible sourcing</span></div></div><div class="visual" aria-label="Smart Edge Viva Hub gold logo"><div class="orbit"></div><div class="logo-showcase"><img src="logo.jpeg" alt="Smart Edge Viva Hub logo"></div><div class="chip one"><i>⌘</i>Computing &amp; laptops</div><div class="chip two"><i>⌁</i>Network &amp; connectivity</div><div class="chip three"><i>ϟ</i>Power &amp; backup</div><div class="float-label">Technology, made practical</div></div></div></section>
-<section class="section" id="about"><div class="wrap about-grid"><div class="section-head"><div class="kicker">A smarter way to source</div><h2>Good technology starts with the right conversation.</h2><p>Smart Edge Viva Hub supplies ICT products with a customer focused, transparent approach—from identifying what you need to coordinating supply.</p></div><div><div class="about-note"><strong>Built around your requirements</strong><p>We listen first, recommend suitable products, share clear specifications and coordinate supply against agreed needs and budgets.</p></div><div style="height:14px"></div><div class="values"><div class="value"><b>Customer focus</b><span>Professional help at every stage.</span></div><div class="value"><b>Integrity</b><span>Transparent pricing and honest specs.</span></div><div class="value"><b>Quality</b><span>Quality conscious, credible sourcing.</span></div><div class="value"><b>Reliability</b><span>Clear communication on delivery.</span></div></div></div></div></section>
-<section class="section soft" id="products"><div class="wrap"><div class="section-head"><div class="kicker">What we supply</div><h2>ICT essentials for the way you work.</h2><p>From everyday peripherals to business technology, we source products to match your requirements and budget. Availability is confirmed when you enquire.</p></div><div class="cards"><article class="card"><div class="icon">▣</div><h3>Computers &amp; laptops</h3><p>Desktops, notebooks, workstations and related accessories.</p></article><article class="card"><div class="icon">▤</div><h3>Printers &amp; imaging</h3><p>Printers, scanners, multifunction devices, toner and ink.</p></article><article class="card"><div class="icon">⌘</div><h3>Accessories &amp; peripherals</h3><p>Monitors, keyboards, mice, webcams, headsets, storage and cables.</p></article><article class="card"><div class="icon">⌁</div><h3>Networking equipment</h3><p>Routers, switches, wireless access points and connectivity accessories.</p></article><article class="card"><div class="icon">ϟ</div><h3>Power &amp; backup</h3><p>UPS units, surge protection and related power accessories.</p></article><article class="card"><div class="icon">◫</div><h3>Storage &amp; data</h3><p>External drives, flash storage, memory cards and more.</p></article><article class="card"><div class="icon">▱</div><h3>Audio-visual &amp; presentation</h3><p>Projectors, screens, speakers and presentation accessories.</p></article><article class="card"><div class="icon">▧</div><h3>Software &amp; office technology</h3><p>Business software, licences and selected office equipment.</p></article><article class="card"><div class="icon">↗</div><h3>Made to your brief</h3><p>Share your specifications, quantities and budget for a tailored quotation.</p></article></div><div class="live-products"><div class="live-head"><div><div class="kicker">From our catalogue</div><h3>Featured products</h3></div><span>Ask us for current availability</span></div><div class="product-grid" id="productGrid"></div><p class="empty-products" id="emptyProducts">Our product catalogue is being updated. <a href="#contact">Contact us</a> for a quote, or use “Edit website” to add products.</p></div><div class="serviceband"><div><strong>Looking for something specific?</strong><p>Send us the item, specs or a photo and we’ll help with the next steps.</p></div><a class="btn" href="https://wa.me/254705104557?text=Hello%20Smart%20Edge%2C%20I%27m%20looking%20for%20an%20ICT%20product." target="_blank" rel="noopener">Ask about a product ↗</a></div></div></section>
-<section class="section" id="approach"><div class="wrap"><div class="section-head"><div class="kicker">Straightforward from enquiry to delivery</div><h2>Clear steps. Reliable coordination.</h2><p>We keep the process simple, with clear communication along the way.</p></div><div class="steps"><div class="step"><h3>Understand</h3><p>We assess your requirement and identify suitable products.</p></div><div class="step"><h3>Quote clearly</h3><p>You receive a quotation and product specifications.</p></div><div class="step"><h3>Source</h3><p>We arrange supply in line with agreed requirements.</p></div><div class="step"><h3>Coordinate</h3><p>We agree delivery and handover arrangements.</p></div><div class="step"><h3>Stay in touch</h3><p>We coordinate warranty and after-sales support within supplier terms.</p></div></div></div></section>
-<section class="section soft"><div class="wrap"><div class="section-head"><div class="kicker">Why Smart Edge</div><h2>Business support with your priorities in mind.</h2></div><div class="why"><div class="why-item"><span class="checkmark">✓</span><div><b>Broad ICT product range</b><p>One point of contact for a varied set of business and institutional needs.</p></div></div><div class="why-item"><span class="checkmark">✓</span><div><b>Customer centred service</b><p>Product selection and quotations guided by what you actually need.</p></div></div><div class="why-item"><span class="checkmark">✓</span><div><b>Transparent communication</b><p>Clear information on specifications, availability and delivery expectations.</p></div></div><div class="why-item"><span class="checkmark">✓</span><div><b>Flexible sourcing</b><p>Options considered around your product requirements and budget.</p></div></div></div></div></section>
-<section class="contact" id="contact"><div class="wrap contact-in"><div><div class="eyebrow">Let’s get you connected</div><h2>Have a requirement?<br>Let’s talk.</h2><p>Contact Smart Edge Viva Hub for product enquiries, quotations and ICT supply requests. Our team will help you take it from brief to handover.</p><div class="contact-actions"><a class="btn" href="https://wa.me/254705104557?text=Hello%20Smart%20Edge%20Viva%20Hub%2C%20I%27d%20like%20to%20enquire." target="_blank" rel="noopener">WhatsApp us ↗</a><a class="btn ghost" href="tel:+254799708070">Call the team</a></div></div><div class="contactbox"><div class="contactrow"><i>☎</i><div><small>Call us</small><a href="tel:+254705104557">0705 104 557</a><a href="tel:+254799708070">0799 708 070</a></div></div><div class="contactrow"><i>⌖</i><div><small>Visit</small><b>Mithoo Business Center, Shop G29</b></div></div><div class="contactrow"><i>◷</i><div><small>Enquiries</small><b>Product supply &amp; quotations</b></div></div></div></div></section></main>
-<div class="editor-backdrop" id="editorBackdrop" onclick="if(event.target===this)closeEditor()"><section class="editor" role="dialog" aria-modal="true" aria-labelledby="editorTitle"><header class="editor-top"><div><span class="kicker">Your website workspace</span><h2 id="editorTitle">Manage your site</h2></div><button class="close-editor" type="button" onclick="closeEditor()" aria-label="Close">×</button></header><div class="editor-notice"><b>Your editor saves in this browser.</b> Export a backup when you update the catalogue. To show edits to everyone online, the site will need hosting with shared product storage.</div><div class="editor-tabs"><button class="active" type="button" onclick="showEditorTab('products',this)">Products</button><button type="button" onclick="showEditorTab('content',this)">Home page text</button></div><div id="productsTab"><form id="productForm" class="product-form"><input type="hidden" id="productId"><label>Product name<input id="productName" required maxlength="90" placeholder="e.g. HP ProBook laptop"></label><div class="form-row"><label>Category<select id="productCategory"><option>Computers &amp; laptops</option><option>Printers &amp; imaging</option><option>Accessories &amp; peripherals</option><option>Networking equipment</option><option>Power &amp; backup</option><option>Storage &amp; data</option><option>Audio-visual &amp; presentation</option><option>Software &amp; office technology</option><option>Other</option></select></label><label>Price (KSh)<input id="productPrice" type="number" min="0" step="1" placeholder="Leave blank for quote"></label></div><label>Short description<textarea id="productDescription" rows="3" maxlength="240" placeholder="Key specifications or details"></textarea></label><label>Product photo<input id="productImage" type="file" accept="image/*"><small class="field-hint">Optional product image.</small></label><div class="editor-actions"><button class="btn" type="submit" id="saveProduct">Add product</button><button class="btn ghost" type="button" onclick="resetProductForm()">Clear</button></div></form><div class="manage-list-head"><b>Your products</b><span id="productCount">0 products</span></div><div id="manageProducts" class="manage-products"></div><div class="backup-actions"><button class="btn ghost" type="button" onclick="exportCatalogue()">Download backup</button><label class="btn ghost import-button">Restore backup<input type="file" accept="application/json,.json" onchange="importCatalogue(event)"></label></div></div><div id="contentTab" hidden><form id="contentForm" class="product-form"><label>Home page headline<input id="editHeadline" maxlength="100"></label><label>Short introduction<textarea id="editIntro" rows="4" maxlength="280"></textarea></label><label>Brand tagline<input id="editTagline" maxlength="100"></label><button class="btn" type="submit">Save home page text</button></form></div><p class="editor-foot">Changes on this device are saved automatically when you add or edit a product.</p></section></div><footer class="footer"><div class="wrap footerin"><span>© <span id="year">2026</span> <b>Smart Edge Viva Hub</b>. All rights reserved.</span><span>Solutions that connect. A future that empowers.</span></div></footer><div class="mobile-cta"><a class="btn" href="tel:+254705104557">Call Smart Edge</a><a class="btn dark" href="https://wa.me/254705104557" target="_blank" rel="noopener">WhatsApp</a></div>
-<script>const STORE='smartEdgeProductsV1',CONTENT='smartEdgeContentV1';
-const defaultContent={headline:'Technology that moves you forward.',intro:'Practical ICT products and dependable supply for businesses, institutions and individuals. Tell us what you need; we’ll help you find the right fit.',tagline:'Solutions that connect. Future that empowers.'};
-function getProducts(){try{return JSON.parse(localStorage.getItem(STORE)||'[]')}catch(e){return []}}
-function saveProducts(items){localStorage.setItem(STORE,JSON.stringify(items));renderProducts()}
-function esc(s){return String(s||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
-function renderProducts(){const items=getProducts();document.getElementById('productCount').textContent=items.length+' product'+(items.length===1?'':'s');document.getElementById('emptyProducts').hidden=items.length>0;document.getElementById('productGrid').innerHTML=items.map(x=>'<article class="store-product">'+(x.image?'<img src="'+x.image+'" alt="'+esc(x.name)+'">':'')+'<div class="product-copy"><small>'+esc(x.category)+'</small><h4>'+esc(x.name)+'</h4>'+(x.description?'<p>'+esc(x.description)+'</p>':'')+'<div class="price">'+(x.price?'KSh '+Number(x.price).toLocaleString('en-KE'):'Request a quote')+'</div><a class="btn" style="margin-top:12px;padding:9px 12px;font-size:11px" href="https://wa.me/254705104557?text='+encodeURIComponent('Hello Smart Edge Viva Hub, I am interested in '+x.name)+'" target="_blank" rel="noopener">Enquire ↗</a></div></article>').join('');document.getElementById('manageProducts').innerHTML=items.map((x,i)=>'<div class="manage-product">'+(x.image?'<img src="'+x.image+'" alt="">':'<div style="width:52px;height:48px;background:#f6f2e8;border-radius:7px"></div>')+'<div class="mp-info"><b>'+esc(x.name)+'</b><small>'+esc(x.category)+(x.price?' · KSh '+Number(x.price).toLocaleString('en-KE'):' · Quote')+'</small></div><button type="button" onclick="editProduct('+i+')">Edit</button><button class="delete" type="button" onclick="deleteProduct('+i+')">Delete</button></div>').join('')||'<p style="font-size:12px;color:#78879a">No products yet. Add your first listing above.</p>'}
-function openEditor(){document.getElementById('editorBackdrop').classList.add('open');document.body.style.overflow='hidden';loadContentForm();renderProducts()}
-function closeEditor(){document.getElementById('editorBackdrop').classList.remove('open');document.body.style.overflow=''}
-function showEditorTab(tab,button){document.getElementById('productsTab').hidden=tab!=='products';document.getElementById('contentTab').hidden=tab!=='content';document.querySelectorAll('.editor-tabs button').forEach(b=>b.classList.remove('active'));button.classList.add('active')}
-function resetProductForm(){document.getElementById('productForm').reset();document.getElementById('productId').value='';document.getElementById('saveProduct').textContent='Add product'}
-function editProduct(i){const x=getProducts()[i];if(!x)return;document.getElementById('productId').value=x.id;document.getElementById('productName').value=x.name;document.getElementById('productCategory').value=x.category;document.getElementById('productPrice').value=x.price||'';document.getElementById('productDescription').value=x.description||'';document.getElementById('saveProduct').textContent='Save changes';document.getElementById('productForm').scrollIntoView({behavior:'smooth',block:'start'})}
-function deleteProduct(i){if(!confirm('Delete this product from your catalogue?'))return;const a=getProducts();a.splice(i,1);saveProducts(a)}
-document.getElementById('productForm').addEventListener('submit',async e=>{e.preventDefault();const a=getProducts(),id=document.getElementById('productId').value;let image='';const file=document.getElementById('productImage').files[0];if(file)image=await new Promise((resolve,reject)=>{const r=new FileReader();r.onload=()=>resolve(r.result);r.onerror=reject;r.readAsDataURL(file)});const old=a.find(x=>x.id===id);const item={id:id||String(Date.now()),name:document.getElementById('productName').value.trim(),category:document.getElementById('productCategory').value,price:document.getElementById('productPrice').value,description:document.getElementById('productDescription').value.trim(),image:image||(old&&old.image||'')};if(old)a[a.indexOf(old)]=item;else a.unshift(item);saveProducts(a);resetProductForm()});
-function exportCatalogue(){const data={products:getProducts(),content:getContent(),exported:new Date().toISOString()};const url=URL.createObjectURL(new Blob([JSON.stringify(data,null,2)],{type:'application/json'}));const a=document.createElement('a');a.href=url;a.download='smart-edge-catalogue-backup.json';a.click();URL.revokeObjectURL(url)}
-function importCatalogue(event){const f=event.target.files[0];if(!f)return;const r=new FileReader();r.onload=()=>{try{const d=JSON.parse(r.result);if(!Array.isArray(d.products))throw Error();localStorage.setItem(STORE,JSON.stringify(d.products));if(d.content)localStorage.setItem(CONTENT,JSON.stringify(d.content));renderProducts();applyContent();loadContentForm();alert('Catalogue backup restored.')}catch(e){alert('That backup file could not be read.')}};r.readAsText(f);event.target.value=''}
-function getContent(){try{return Object.assign({},defaultContent,JSON.parse(localStorage.getItem(CONTENT)||'{}'))}catch(e){return defaultContent}}
-function applyContent(){const c=getContent();const words=c.headline.split(/s+/);document.querySelector('.hero h1').innerHTML=esc(words.slice(0,-2).join(' '))+' <span style="color:var(--cyan)">'+esc(words.slice(-2).join(' '))+'</span>';const p=document.querySelector('.hero-in>div:first-child>p');if(p)p.textContent=c.intro;document.querySelector('.footerin>span:last-child').textContent=c.tagline}
-function loadContentForm(){const c=getContent();document.getElementById('editHeadline').value=c.headline;document.getElementById('editIntro').value=c.intro;document.getElementById('editTagline').value=c.tagline}
-document.getElementById('contentForm').addEventListener('submit',e=>{e.preventDefault();const c={headline:document.getElementById('editHeadline').value.trim(),intro:document.getElementById('editIntro').value.trim(),tagline:document.getElementById('editTagline').value.trim()};localStorage.setItem(CONTENT,JSON.stringify(c));applyContent();alert('Home page text saved.')});
-document.getElementById('year').textContent=new Date().getFullYear();applyContent();renderProducts();document.addEventListener('keydown',e=>{if(e.key==='Escape')closeEditor()});</script></body></html>
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="wrap hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">Nairobi <span>·</span> ICT supply</p>
+          <h1 id="hero-title">Solutions that connect.<br><em>Future that empowers.</em></h1>
+          <p class="hero-description">Laptops, desktops and workplace technology for individuals, businesses and institutions. Browse prices or tell us what you need.</p>
+          <div class="hero-actions">
+            <a class="button button-gold" href="#catalogue">Browse catalogue <svg class="icon"><use href="#i-arrow"/></svg></a>
+            <a class="button button-outline" href="https://wa.me/254705104557"><svg class="icon"><use href="#i-whatsapp"/></svg> Enquire on WhatsApp</a>
+          </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="visual-caption"><span><i></i> SMART EDGE VIVA HUB</span><span>NAIROBI, KE</span></div>
+          <svg class="workstation" viewBox="0 0 500 333" fill="none">
+            <defs>
+              <linearGradient id="metal" x1="119" y1="41" x2="404" y2="315" gradientUnits="userSpaceOnUse"><stop stop-color="#ead29a"/><stop offset=".47" stop-color="#a27b43"/><stop offset="1" stop-color="#5b4529"/></linearGradient>
+              <linearGradient id="deck" x1="255" y1="229" x2="259" y2="308" gradientUnits="userSpaceOnUse"><stop stop-color="#262015"/><stop offset="1" stop-color="#161411"/></linearGradient>
+              <radialGradient id="display"><stop stop-color="#352919"/><stop offset="1" stop-color="#13110e"/></radialGradient>
+              <pattern id="screen-grid" width="14" height="14" patternUnits="userSpaceOnUse"><path d="M14 0H0v14" stroke="#977347" stroke-opacity=".16" stroke-width=".55"/></pattern>
+            </defs>
+            <g stroke="#a5814d" stroke-opacity=".45" stroke-width=".7">
+              <path d="M250 19v301M21 170h458" stroke-dasharray="2 6"/>
+              <path d="M38 178h26l23-22h28m278-34h33l16-15h27m-74 88h28l30 29h16M36 226h40l24-25h18M94 48h-27v25m343-25h25v25M90 313H66v-22m368 0v22h-24"/>
+              <circle cx="34" cy="178" r="3"/><circle cx="473" cy="107" r="3"/><circle cx="473" cy="224" r="3"/><circle cx="32" cy="226" r="3"/>
+              <circle cx="250" cy="169" r="149" stroke-dasharray="2 6"/>
+            </g>
+            <ellipse cx="252" cy="301" rx="203" ry="21" fill="#100e0b" fill-opacity=".8"/>
+            <path d="M117 65a11 11 0 0 1 11-10h246a11 11 0 0 1 11 10l15 179H101L117 65Z" fill="#17130e" stroke="url(#metal)" stroke-width="1.5"/>
+            <path d="M128 69h246l13 161H114l14-161Z" fill="url(#display)" stroke="#8a6c40" stroke-opacity=".7"/>
+            <path d="M128 69h246l13 161H114l14-161Z" fill="url(#screen-grid)"/>
+            <path d="M137 89v-11h14m197 0h14v11m8 120v12h-14m-210 0h-14v-12" stroke="#a98853" stroke-opacity=".65" stroke-width=".8"/>
+            <circle cx="251" cy="62" r="1.6" fill="#af8b50"/>
+            <image href="logo.jpeg" x="151" y="72" width="200" height="158" preserveAspectRatio="xMidYMid meet" class="screen-logo"/>
+            <path d="M101 244h299l62 47a5 5 0 0 1-3 9H41a5 5 0 0 1-3-9l63-47Z" fill="url(#deck)" stroke="url(#metal)" stroke-width="1.5"/>
+            <path d="M121 251h261l26 19H94l27-19Z" fill="#322719" stroke="#775a34" stroke-width=".8"/>
+            <path d="M115 256h274m-282 5h290m-297 5h303m-263-15-14 19m37-19-10 19m33-19-8 19m30-19-4 19m27-19-3 19m24-19v19m22-19 2 19m21-19 4 19m18-19 7 19m16-19 9 19m13-19 14 19" stroke="#b59057" stroke-opacity=".5" stroke-width=".65"/>
+            <path d="M216 275h69l10 13h-89l10-13ZM38 292h424m-236 0 3 3h44l3-3" stroke="#a5814d" stroke-opacity=".65" stroke-width=".9"/>
+          </svg>
+          <div class="visual-caption visual-bottom"><span>COMPUTING &amp; WORKPLACE TECH</span><span class="visual-diamonds">◇ ◇ ◇</span></div>
+        </div>
+      </div>
+    </section>
+
+    <div class="quick-strip">
+      <div class="wrap quick-links">
+        <a href="#catalogue"><svg class="icon"><use href="#i-laptop"/></svg><span>Laptops &amp; desktops</span><svg class="icon quick-arrow"><use href="#i-diagonal"/></svg></a>
+        <a href="#equipment"><svg class="icon"><use href="#i-box"/></svg><span>Workplace equipment</span><svg class="icon quick-arrow"><use href="#i-diagonal"/></svg></a>
+        <a href="https://whatsapp.com/channel/0029VbDe92o3rZZmBGF6pf0q"><svg class="icon"><use href="#i-whatsapp"/></svg><span>Product updates</span><svg class="icon quick-arrow"><use href="#i-diagonal"/></svg></a>
+      </div>
+    </div>
+
+    <section class="section catalogue" id="catalogue" aria-labelledby="catalogue-title">
+      <div class="wrap">
+        <div class="section-heading catalogue-heading">
+          <div>
+            <p class="eyebrow">01 <span>/</span> Shop the range</p>
+            <h2 id="catalogue-title">Product catalogue<span class="gold">.</span></h2>
+            <p>Compare specs and prices, then enquire directly on WhatsApp.</p>
+          </div>
+          <button type="button" class="button button-outline edit-launch" id="open-editor" hidden><svg class="icon"><use href="#i-edit"/></svg> Edit prices &amp; products</button>
+        </div>
+        <div id="catalogue-controls" class="catalogue-controls" hidden>
+          <div class="search-field">
+            <svg class="icon"><use href="#i-search"/></svg>
+            <label class="sr-only" for="product-search">Search products</label>
+            <input id="product-search" type="search" placeholder="Search products or specs…" autocomplete="off">
+          </div>
+          <div class="filters" id="category-filters" role="group" aria-label="Filter by category">
+            <button type="button" data-category="all" aria-pressed="true">All products</button>
+            <button type="button" data-category="laptops" aria-pressed="false">Laptops</button>
+            <button type="button" data-category="desktops" aria-pressed="false">Desktops</button>
+            <button type="button" data-category="accessories" aria-pressed="false">Accessories</button>
+          </div>
+          <div class="sort-field">
+            <label class="sr-only" for="product-sort">Sort products</label>
+            <select id="product-sort">
+              <option value="listed">Sort: Listed order</option>
+              <option value="price-low">Price: Lowest first</option>
+              <option value="price-high">Price: Highest first</option>
+            </select>
+            <svg class="icon"><use href="#i-chevron"/></svg>
+          </div>
+        </div>
+        <div class="catalogue-meta">
+          <p id="product-count" role="status"></p>
+          <p class="availability"><svg class="icon"><use href="#i-info"/></svg> Please confirm current availability before ordering.</p>
+        </div>
+        <div class="product-grid" id="product-grid"></div>
+        <div id="empty-state" class="empty-state" hidden>
+          <p id="empty-message"></p>
+          <button type="button" class="button button-outline" id="clear-filters">Clear filters</button>
+        </div>
+        <div class="more-row"><button type="button" class="button button-outline" id="show-more" hidden>Show more products <svg class="icon"><use href="#i-chevron"/></svg></button></div>
+        <noscript><p class="empty-state">Enable JavaScript to browse the catalogue, or <a href="https://wa.me/254705104557">enquire about products on WhatsApp</a>.</p></noscript>
+      </div>
+    </section>
+
+    <section class="section equipment" id="equipment" aria-labelledby="equipment-title">
+      <div class="wrap equipment-layout">
+        <div class="section-heading">
+          <p class="eyebrow">02 <span>/</span> What we supply</p>
+          <h2 id="equipment-title">Beyond the <em>catalogue.</em></h2>
+          <p>Tell us what you need and we can quote for equipment not listed in the catalogue.</p>
+          <a class="text-link" href="https://wa.me/254705104557?text=Hello%20Smart%20Edge%20Viva%20Hub%2C%20I%27d%20like%20a%20quote%20for%20workplace%20equipment.">Request an equipment quote <svg class="icon"><use href="#i-diagonal"/></svg></a>
+        </div>
+        <div class="equipment-grid">
+          <article><svg class="icon"><use href="#i-printer"/></svg><h3>Printers</h3><p>Inkjet and laser printers, all-in-ones and consumables.</p></article>
+          <article><svg class="icon"><use href="#i-network"/></svg><h3>Networking</h3><p>Routers, switches, access points and network cabling.</p></article>
+          <article><svg class="icon"><use href="#i-power"/></svg><h3>Backup power</h3><p>UPS units and surge protection for workstations and network gear.</p></article>
+          <article><svg class="icon"><use href="#i-keyboard"/></svg><h3>Peripherals</h3><p>Monitors, keyboards, mice, headsets and adapters.</p></article>
+          <article><svg class="icon"><use href="#i-briefcase"/></svg><h3>Office equipment</h3><p>Scanners, shredders and everyday office equipment.</p></article>
+          <article><svg class="icon"><use href="#i-projector"/></svg><h3>Presentation equipment</h3><p>Projectors, display screens and presentation accessories.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section process" id="process" aria-labelledby="process-title">
+      <div class="wrap">
+        <div class="section-heading">
+          <p class="eyebrow">03 <span>/</span> How it works</p>
+          <h2 id="process-title">From enquiry to order<span class="gold">.</span></h2>
+        </div>
+        <ol class="steps">
+          <li><span>01</span><h3>Share your requirements</h3><p>Send the model, specs, quantity or budget you have in mind.</p></li>
+          <li><span>02</span><h3>Review the quote</h3><p>We confirm options, current availability and pricing.</p></li>
+          <li><span>03</span><h3>Confirm your order</h3><p>Approve the quote and agree on collection or delivery arrangements.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <div class="wrap contact-panel">
+        <div class="section-heading">
+          <p class="eyebrow">04 <span>/</span> Contact</p>
+          <h2 id="contact-title">Let’s talk <em>tech.</em></h2>
+          <p>Ask about a product, request a quote or visit our Nairobi shop.</p>
+          <div class="hero-actions">
+            <a class="button button-gold" href="https://wa.me/254705104557"><svg class="icon"><use href="#i-whatsapp"/></svg> Enquire on WhatsApp</a>
+            <a class="button button-outline" href="https://whatsapp.com/channel/0029VbDe92o3rZZmBGF6pf0q">Product updates <svg class="icon"><use href="#i-diagonal"/></svg></a>
+          </div>
+        </div>
+        <address class="contact-details">
+          <div><svg class="icon"><use href="#i-phone"/></svg><div><strong>Call us</strong><a href="tel:+254705104557">0705 104 557</a><a href="tel:+254799708070">0799 708 070</a></div></div>
+          <div><svg class="icon"><use href="#i-pin"/></svg><div><strong>Visit the shop</strong><span>Mithoo Business Center, Shop G29, Nairobi</span></div></div>
+        </address>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <span>Smart Edge Viva Hub</span>
+      <span>Solutions that connect. Future that empowers.</span>
+      <a href="#top">Back to top <svg class="icon"><use href="#i-diagonal"/></svg></a>
+    </div>
+  </footer>
+
+  <dialog class="editor" id="editor" aria-labelledby="editor-title">
+    <div class="editor-header">
+      <div><p class="eyebrow">Local catalogue editor</p><h2 id="editor-title">Edit prices &amp; products</h2></div>
+      <form method="dialog"><button type="submit" class="icon-button" aria-label="Close editor"><svg class="icon"><use href="#i-close"/></svg></button></form>
+    </div>
+    <div class="editor-body">
+      <div class="editor-notice">
+        <p><strong>Edits are saved in this browser only.</strong> Visitors keep seeing the published catalogue until you deploy an update.</p>
+        <p>To publish, download <code>catalogue.js</code>, replace the file of the same name in your site repository, and merge the change to <code>main</code> for Netlify to deploy.</p>
+        <div class="editor-actions">
+          <button type="button" class="button button-outline" id="download-catalogue"><svg class="icon"><use href="#i-download"/></svg> Download catalogue.js</button>
+          <button type="button" class="text-button" id="discard-draft" hidden>Discard local edits</button>
+        </div>
+      </div>
+      <p class="editor-status" id="editor-status" role="status"></p>
+      <form id="product-form" class="product-form">
+        <h3 id="form-title">Add a product</h3>
+        <label for="edit-name">Product name</label>
+        <input id="edit-name" name="productName" type="text" maxlength="100" required>
+        <div class="form-row">
+          <div><label for="edit-category">Category</label><select id="edit-category" name="category"><option value="laptops">Laptops</option><option value="desktops">Desktops</option><option value="accessories">Accessories</option></select></div>
+          <div><label for="edit-price">Price (KSh)</label><input id="edit-price" name="price" type="number" min="1" max="999999999" step="1" inputmode="numeric" required></div>
+        </div>
+        <label for="edit-specs">Specifications</label>
+        <textarea id="edit-specs" name="specs" rows="2" maxlength="240" required></textarea>
+        <div class="editor-actions">
+          <button type="submit" class="button button-gold" id="save-product">Add product</button>
+          <button type="button" class="text-button" id="cancel-edit" hidden>Cancel edit</button>
+        </div>
+      </form>
+      <div class="editor-list-heading"><h3>Catalogue items</h3><span id="editor-count"></span></div>
+      <div class="search-field editor-search"><svg class="icon"><use href="#i-search"/></svg><label class="sr-only" for="editor-search">Find an item to edit</label><input id="editor-search" type="search" placeholder="Find an item to edit…" autocomplete="off"></div>
+      <ul class="editor-list" id="editor-list"></ul>
+    </div>
+  </dialog>
+</body>
+</html>
